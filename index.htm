@@ -27,7 +27,7 @@
 <meta property="og:url" content="http://getverona.com" />
 <meta property="og:description" content="Verona - an app to connect across divides. We help you make new friends with people you never thought possible. World peace, one swipe at a time. Get it for free on iPhone and Android." />
 <meta property="og:site_name" content="Verona for iPhone and Android." />
-<meta property="og:image" content="http://getverona.com/img/verona/Verona-User3.jpg" />
+<meta property="og:image" content="http://getverona.com/images/verona/Verona-User3.jpg" />
 <meta property="fb:app_id" content="1549968485265325" />
 
 <meta name="twitter:card" content="app">
@@ -35,7 +35,7 @@
 <meta name="twitter:description" content="Verona - an app to connect across divides. We help you make new friends with people you never thought possible. World peace, one swipe at a time. Get it for free on iPhone and Android.">
 <meta name="twitter:creator" content="@GetVerona">
 <meta name="twitter:url" content="http://getverona.com">
-<meta name="twitter:image" content="/img/verona/Verona-User3.jpg">
+<meta name="twitter:image" content="/images/verona/Verona-User3.jpg">
 
 <meta name="twitter:app:country" content="US">
 <meta name="twitter:app:name:iphone" content="Verona">
@@ -365,13 +365,11 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js" integrity="sha256-oP3taRrtdn+FEBHNMYW5KGGSmKIaD72tSAip6ItJCDM=" crossorigin="anonymous"></script>
 
-
 <script>
 
 var appMaster={preLoader:function(){imageSources=[],$("img").each(function(){var e=$(this).attr("src");imageSources.push(e)}),$(imageSources).load()&&$(".pre-loader").fadeOut("slow")},smoothScroll:function(){$("a[href*=#]:not([href=#carousel-example-generic])").click(function(){if(location.pathname.replace(/^\//,"")==this.pathname.replace(/^\//,"")&&location.hostname==this.hostname){var e=$(this.hash);if((e=e.length?e:$("[name="+this.hash.slice(1)+"]")).length)return $("html,body").animate({scrollTop:e.offset().top-60},1e3),!1}})},screensCarousel:function(){$(".filtering").slick({slidesToShow:4,slidesToScroll:4,dots:!1,responsive:[{breakpoint:1024,settings:{slidesToShow:2,slidesToScroll:2,infinite:!0,dots:!0}},{breakpoint:600,settings:{slidesToShow:2,slidesToScroll:2}},{breakpoint:480,settings:{slidesToShow:1,slidesToScroll:1}}]}),$(".js-filter-all").on("click",function(){$(".filtering").slickUnfilter(),$(".filter a").removeClass("active"),$(this).addClass("active")}),$(".js-filter-one").on("click",function(){$(".filtering").slickFilter(".one"),$(".filter a").removeClass("active"),$(this).addClass("active")}),$(".js-filter-two").on("click",function(){$(".filtering").slickFilter(".two"),$(".filter a").removeClass("active"),$(this).addClass("active")}),$(".js-filter-three").on("click",function(){$(".filtering").slickFilter(".three"),$(".filter a").removeClass("active"),$(this).addClass("active")})},animateScript:function(){$(".scrollpoint.sp-effect1").waypoint(function(){$(this).toggleClass("active"),$(this).toggleClass("animated fadeInLeft")},{offset:"100%"}),$(".scrollpoint.sp-effect2").waypoint(function(){$(this).toggleClass("active"),$(this).toggleClass("animated fadeInRight")},{offset:"100%"}),$(".scrollpoint.sp-effect3").waypoint(function(){$(this).toggleClass("active"),$(this).toggleClass("animated fadeInDown")},{offset:"100%"}),$(".scrollpoint.sp-effect4").waypoint(function(){$(this).toggleClass("active"),$(this).toggleClass("animated fadeIn")},{offset:"100%"}),$(".scrollpoint.sp-effect5").waypoint(function(){$(this).toggleClass("active"),$(this).toggleClass("animated fadeInUp")},{offset:"100%"})},scrollMenu:function(){$(window).scrollTop()>50&&$("#indexNav").addClass("scrolled");$("#veronaLogo");var e=$("#indexNav");$(window).width();$(window).bind("scroll",function(){$(window).scrollTop()>50?e.addClass("scrolled"):e.removeClass("scrolled")}),$("ul.navbar-nav li a").bind("click",function(){$(this).closest(".navbar-collapse").hasClass("in")&&$(this).closest(".navbar-collapse").removeClass("in")}),$(".socialBtn").click(function(e){return e.preventDefault(),window.open($(this).attr("href"),"ShareWindow","height=450, width=550, top="+($(window).height()/2-275)+", left="+($(window).width()/2-225)+", toolbar=0, location=0, menubar=0, directories=0, scrollbars=0"),!1})}};$(document).ready(function(){appMaster.preLoader(),appMaster.smoothScroll(),appMaster.screensCarousel(),appMaster.animateScript(),appMaster.scrollMenu()});
 
 </script>
-
 
 </body>
 </html>
