@@ -1,1 +1,1 @@
-# getverona.github.io
+The public website for Verona. [https://www.getverona.com](https://www.getverona.com)
